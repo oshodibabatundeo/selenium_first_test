@@ -13,7 +13,7 @@ options = Options()
 options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(options=options)
 
-# Initialize driver only once
+# Initialize driver 
 driver = webdriver.Chrome()
 driver.get("https://automationplayground.com/crm/login.html")
 driver.maximize_window()
