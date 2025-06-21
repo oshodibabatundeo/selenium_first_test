@@ -14,7 +14,7 @@ options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(options=options)
 
 # Initialize driver 
-driver = webdriver.Chrome()
+
 driver.get("https://automationplayground.com/crm/login.html")
 driver.maximize_window()
 
@@ -95,16 +95,16 @@ def sign_out():
     time.sleep(wait)
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
     # To call login function
-    # login()
+# login()
 
-    # To call new customer function
-    new_customer()
+# To call new customer function
+new_customer()
 
-    #To call sign out function
-    # sign_out()
+#To call sign out function
+# sign_out()
 
 
 
